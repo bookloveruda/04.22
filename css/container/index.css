@@ -1,0 +1,298 @@
+@charset "utf-8";
+@import url(../common/reset.css);
+@import url(../common/header.css);
+@import url(../common/footer.css);
+
+#wrap{
+  /* background-color: #555; */
+}
+
+.container{
+  width: 100%;
+  /* height: 10000px; */
+  height: auto;
+  /* background-color: #ccc; */
+}
+.container .inner-container{}
+.container .inner-container .sections{}
+
+/* 1111111111111111111111111111111111111111111 */
+.container .inner-container .sections .section.sec1{
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #f00;
+}
+.container .inner-container .sections .section.sec1 .sec-con{
+  width: inherit;
+  height: auto;
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery{
+  width: inherit;
+  height: inherit;
+  /* height: 100vh; */
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul{
+  width: inherit;
+  height: inherit;
+
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li{
+  /* height: 1080px; */
+  width: 100%;
+  /* height: 100vh; */
+
+  position: relative;
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .bc-img{
+  width: inherit;
+  height: inherit;
+
+  /* position: absolute; */
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .bc-img img{
+  width: 100%;
+  height: auto;
+  display: block;
+  /* border: 10px solid #0f0; */
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 66%;
+  height: auto;
+  /* background-color: #ff0; */
+  color: #fff;
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con .index{
+  font-family: "Noto Sans CJK KR Medium";
+  font-size: 22px;
+  line-height: 30px;
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con .title{
+  font-family: "newyork";
+  font-size: 80px;
+  /* margin: 50px 0; */
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con .sub-title{
+  font-family: "Noto Sans CJK KR Medium";
+  font-size: 19px;
+  line-height: 50px;
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con .button{
+  width: 212px;
+  height: 57px;
+  border: 1px solid #fff;
+  border-radius: 28px;
+  margin: 20px 0;
+  font-family: "Noto Sans CJK KR Medium";
+  font-size: 17px;
+  text-align: center;
+  line-height: 60px;
+  display: inline-block;
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con .button{}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con .button{}
+.container .inner-container .sections .section.sec1 .sec-con .gallery >ul>li .li-con .button{}
+
+
+/* 22222222222222222222222222222222222222222222222 */
+.container .inner-container .sections .section.sec2{
+  /* display: flex;
+  justify-content: center;
+  margin: 200px 0; */
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 17px;
+
+  margin: 191px 0;
+
+  /* background-color: rgb(255, 123, 0); */
+}
+.container .inner-container .sections .section.sec2 .sec-con{
+  /* flex: 0 1 1550px; */
+  grid-column: 3/11;
+}
+.container .inner-container .sections .section.sec2 .sec-con .c1{
+  font-family: "roboto";
+  font-size: 24px;
+}
+.container .inner-container .sections .section.sec2 .sec-con .always{
+  font-family: "newyork";
+  font-size: 168px;
+  margin: 50px 0;
+}
+.container .inner-container .sections .section.sec2 .sec-con p{
+  /* font-family: "나눔명조"; */
+  /* font-family: "NotoSansCJKkr-hinted"; */
+  /* font-family: "NotoSansCJKkr-Medium"; */
+  /* font-family: "NotoSans"; */
+  /* 파워포인트에서 글자 찾으면 된다>< */
+  font-family: "Noto Sans CJK KR Medium";
+  font-size: 19px;
+  line-height: 36px;
+}
+.container .inner-container .sections .section.sec2 .sec-con .button{
+  width: 160px;
+  height: 60px;
+  border: 1px solid #000;
+  background-color: #000;
+  border-radius: 30px;
+  margin: 50px 0;
+  font-family: "roboto";
+  text-align: center;
+  line-height: 60px;
+}
+.container .inner-container .sections .section.sec2 .sec-con .button:hover{
+  background-color: #fff;
+}
+.container .inner-container .sections .section.sec2 .sec-con .button a{
+  color: #fff;
+  font-family: "roboto";
+  font-size: 18px;
+  display: block;
+}
+.container .inner-container .sections .section.sec2 .sec-con .button a:hover{
+  color: #000;
+}
+
+/* 333333333333333333333333333333333333333333333333 */
+.container .inner-container .sections .section.sec3{
+  width: 100%;
+  height: auto;
+  /* background-color: #ff0; */
+}
+.container .inner-container .sections .section.sec3 .sec-con{
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 17px;
+
+  /* margin: 191px 0; */
+}
+.container .inner-container .sections .section.sec3 .sec-con .bc-img{
+  /* width: 1599px; */
+  /* height: 2114px; */
+
+  grid-column: 1/11;
+}
+.container .inner-container .sections .section.sec3 .sec-con .bc-img img{
+  width: 100%;
+  height: auto;
+  display: block;
+  /* - background-**position** : (배경 이미지) **위치 지정 [ 50%(정중앙) ]**
+- background-**size** : (배경 이미지) **크기 [ cover / contain ]**
+- background-**attachment** : (배경 이미지) 고정 [ fixed ] */
+
+  /* background-size: cover; */
+  background-size: contain;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con{
+  /* width: 1550px; */
+  /* margin: 0 300px; */
+  /* background-color: rgb(202, 187, 30); */
+
+  grid-column: 3/11;
+
+  margin: -230px 0;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con .hydra{
+  font-family: "newyork";
+  font-size: 168px;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con .sub-hydra{
+  font-family: "Noto Sans CJK KR Medium";
+  font-size: 49px;
+  line-height: 150px;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con p{
+  font-family: "Noto Sans CJK KR Medium";
+  font-size: 19px;
+  line-height: 30px;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con .info{
+  font-family: "roboto";
+  font-size: 19px;
+  line-height: 80px;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con .button{
+  width: 160px;
+  height: 60px;
+  border: 1px solid #000;
+  background-color: #000;
+  border-radius: 30px;
+  margin: 50px 0;
+  font-family: "roboto";
+  text-align: center;
+  line-height: 60px;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con .button:hover{
+  background-color: #fff;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con .button a{
+  color: #fff;
+  font-family: "roboto";
+  font-size: 18px;
+  display: block;
+}
+.container .inner-container .sections .section.sec3 .sec-con .text-con .button a:hover{
+  color: #000;
+}
+
+/* 44444444444444444444444444444444444444444444444444444444 */
+.container .inner-container .sections .section.sec4{
+  width: 100%;
+  height: 1000px;
+  /* background-color: #0f0; */
+
+  margin: 500px 0;
+}
+.container .inner-container .sections .section.sec4 .sec-con{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 17px;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.container .inner-container .sections .section.sec4 .sec-con .video-con{
+  grid-column: 3/11;
+
+  /* flex: 0 1 1600px; */
+}
+.container .inner-container .sections .section.sec4 .sec-con .video-con video{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+
+/* 55555555555555555555555555555555555555555555555555555555 */
+.container .inner-container .sections .section.sec5{}
+.container .inner-container .sections .section.sec5 .sec-con{}
+
+
+/* 666666666666666666666666666666666666666666666666666666 */
+.container .inner-container .sections .section.sec6{}
+.container .inner-container .sections .section.sec6 .sec-con{}
+
+
+/* 777777777777777777777777777777777777777777777777777777 */
+.container .inner-container .sections .section.sec7{}
+.container .inner-container .sections .section.sec7 .sec-con{}
+
+
+/* 88888888888888888888888888888888888888888888888888888 */
+.container .inner-container .sections .section.sec8{}
+.container .inner-container .sections .section.sec8 .sec-con{}
+
+
+
+
+
